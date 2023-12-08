@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.dark-text {
+  color: hsl(0, 6%, 24%);
+}
+
+.de-red {
+  color: hsl(0, 36%, 70%);
+}
+
+.bg-de-red{
+  background-color:  hsl(0, 36%, 70%);
+}
+
+
+@media  screen and (max-width: 768px) {
+  .main-div {
+    background: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+  }
+}
